@@ -104,7 +104,7 @@ function Excellmport() {
         )}
       </Box>
 
-      <Container maxWidth="sm">
+      <Container maxWidth="lg">
         <Box className="viewer" sx={{ width: 1 }}>
           <Button onClick={downloadExcel} variant="contained" sx={{ mt: 2 }}>Download Excel</Button>
           {excelData ? (
